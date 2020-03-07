@@ -1,5 +1,5 @@
 # 《深度学习图像识别技术：基于TensorFlow Object Detection API和OpenVINO工具套件》
-![front_cover](https://github.com/dlod-openvino/book/blob/master/封面1.jpg)
+![front_cover](https://github.com/dlod-openvino/book/blob/master/封面.jpg)
 
 ## 【随书资料下载链接】
 [百度网盘](https://yunpan.360.cn/surl_yrkBV8cRhDT) （提取码：d52e）
