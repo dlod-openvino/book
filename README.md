@@ -1,4 +1,4 @@
-# 《深度学习图像识别技术：基于TensorFlow Object Detection API和Intel OpenVINO》
+# 《深度学习图像识别技术：基于TensorFlow Object Detection API和OpenVINO工具套件》
 ![front_cover](https://github.com/dlod-openvino/book/blob/master/封面1.jpg)
 
 ## 【随书资料下载链接】
