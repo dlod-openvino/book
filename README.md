@@ -2,8 +2,8 @@
 ![front_cover](https://github.com/dlod-openvino/book/blob/master/封面.jpg)
 
 ## 【随书资料下载链接】
-[百度网盘](https://yunpan.360.cn/surl_yrkBV8cRhDT) （提取码：d52e）
-[360网盘](https://pan.baidu.com/s/1OMXOlN_Cr4aITG9LfhTWNQ) （提取码：ftco）
+[360网盘](https://yunpan.360.cn/surl_yrkBV8cRhDT) （提取码：d52e）
+[百度网盘](https://pan.baidu.com/s/1OMXOlN_Cr4aITG9LfhTWNQ) （提取码：ftco）
 
 ## 【勘误列表】
 
