@@ -8,9 +8,9 @@
 ## 【勘误】
 
 **勘误1 Page39**
-原文：conda install tensorflow-gpu=1.13
-改为：conda install tensorflow-gpu=1.13.1
-原因：anaconda软件服务器版本变化
++ 原文：conda install tensorflow-gpu=1.13
++ 改为：conda install tensorflow-gpu=1.13.1
++ 原因：anaconda软件服务器版本变化
 
 ---
 
