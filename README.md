@@ -5,7 +5,7 @@
 [百度网盘](https://yunpan.360.cn/surl_yrkBV8cRhDT) （提取码：d52e）
 [360网盘](https://pan.baidu.com/s/1OMXOlN_Cr4aITG9LfhTWNQ) （提取码：ftco）
 
-## 【勘误】
+## 【勘误列表】
 
 **勘误1 Page39**
 + 原文：conda install tensorflow-gpu=1.13
