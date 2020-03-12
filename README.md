@@ -7,10 +7,12 @@
 
 ## 【勘误】
 
-###### 勘误1 Page39
+**勘误1 Page39**
 原文：conda install tensorflow-gpu=1.13
 改为：conda install tensorflow-gpu=1.13.1
 原因：anaconda软件服务器版本变化
+
+---
 
 由于笔者的水平有限，书中难免会出现错误或者不准确的地方，恳请读者批评指正。读者可以将书中的错误以及遇到的任何问题反馈给我们，我们将尽量在线上为读者提供最满意的解答。
 Email: dlod_openvino@163.com
