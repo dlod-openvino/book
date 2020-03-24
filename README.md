@@ -12,7 +12,7 @@
 + 改为：conda install tensorflow-gpu=1.13.1
 + 原因：anaconda软件服务器版本变化
 
-**注意 Page124 OpenVINO 2020 R1版开始，cpu_extension库已经集成到推理引擎中去了**
+**注意1 Page124 OpenVINO 2020 R1版开始，cpu_extension库已经集成到推理引擎中去了**
 + 原文：将intel64→Debug文件夹下的cpu_extension.lib文件复制到C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\inference_engine\lib\intel64\Debug文件夹
 + 注意：OpenVINO 2020 R1版开始不需要通过编译Samples获得cpu_extension库；OpenVINO 2020 R1之前的版本都需要
 
