@@ -16,6 +16,10 @@
 + 原文：将intel64→Debug文件夹下的cpu_extension.lib文件复制到C:\Program Files (x86)\IntelSWTools\openvino_2019.3.334\inference_engine\lib\intel64\Debug文件夹
 + 注意：OpenVINO 2020 R1版开始不需要通过编译Samples获得cpu_extension库；OpenVINO 2020 R1之前的版本都需要
 
+**注意2 Anaconda官网打不开，请从清华镜像源下载**
++ 多名读者反馈Anaconda官网打不开，无法下载Anaconda
++ 解决方案：从清华镜像源下载
+https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 ---
 
 由于笔者的水平有限，书中难免会出现错误或者不准确的地方，恳请读者批评指正。读者可以将书中的错误以及遇到的任何问题反馈给我们，我们将尽量在线上为读者提供最满意的解答。
