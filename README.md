@@ -18,8 +18,8 @@
 
 **注意2 Anaconda官网打不开，请从清华镜像源下载**
 + 多名读者反馈Anaconda官网打不开，无法下载Anaconda
-+ 解决方案：从清华镜像源下载
-https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
++ 解决方案：从清华镜像源下载 https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
++ 配置Anaconda清华源镜像，参看：https://mirrors.tuna.tsinghua.edu.cn/help/anaconda/
 
 **注意3 有读者反馈git clone -b r1.13.0 https://github.com/tensorflow/models.git 下载速度慢**
 + 请从云盘下载本书附带资料，本书已帮读者下载了models文件夹
