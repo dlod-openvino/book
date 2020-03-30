@@ -4,11 +4,8 @@
 ## 【随书资料下载链接】
 [360网盘](https://yunpan.360.cn/surl_yrkBV8cRhDT) （提取码：d52e）
 [百度网盘](https://pan.baidu.com/s/1OMXOlN_Cr4aITG9LfhTWNQ) （提取码：ftco）
-经过测试，360网盘：
-下载速度只有200KB或以下的，下载过程容易断，建议扫描书封底的机工社二维码下载
-下载速度超过1MB的，可以成功下载
 
-## 【勘误列表】
+## 【注意项】
 
 **勘误1 Page39**
 + 原文：conda install tensorflow-gpu=1.13
