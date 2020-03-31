@@ -7,6 +7,11 @@
 
 ## 【注意项】
 
+**安装TensorFlow前请卸掉之前安装的TensorFlow、Python和CUDA**
++ 问题：有读者用命令conda install tensorflow-gpu=1.13，但TF的版本却是1.15.1
++ 原因：该读者之前在自己的电脑上已安装过TensorFlow，遇到了多版本冲突
++ 解决：请读者在按照本书搭建TensorFlow开发环境前，先卸掉之前安装的TensorFlow、Python、Anaconda和CUDA，从一个干净的环境开始搭建
+
 **勘误1 Page39**
 + 原文：conda install tensorflow-gpu=1.13
 + 改为：conda install tensorflow-gpu=1.13.1
