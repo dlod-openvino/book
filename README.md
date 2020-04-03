@@ -7,6 +7,10 @@
 ---
 ## 【注意项】
 
+#### 下载OpenVINO时，请选择2019R3版，跟本书保持一致
+下载链接：
+https://software.intel.com/en-us/openvino-toolkit/choose-download?innovator=CONT-0017856
+
 #### 【下载须知】 360网盘资料下载不成功问题
 + 问题：超过1GB会自动断掉
 + 原因：非360会员
