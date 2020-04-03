@@ -7,7 +7,7 @@
 ---
 ## 【注意项】
 
-#### 下载OpenVINO时，请选择2019R3版，跟本书保持一致
+#### 【下载OpenVINO版本】请选择2019R3版，跟本书保持一致
 下载链接：
 https://software.intel.com/en-us/openvino-toolkit/choose-download?innovator=CONT-0017856
 
