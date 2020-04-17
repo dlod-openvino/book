@@ -21,6 +21,11 @@ https://software.intel.com/en-us/openvino-toolkit/choose-download?innovator=CONT
 + 原因：该读者之前在自己的电脑上已安装过TensorFlow，遇到了多版本冲突
 + 解决：请读者在按照本书搭建TensorFlow开发环境前，先卸掉之前安装的TensorFlow、Python、Anaconda和CUDA，从一个干净的环境开始搭建
 
+#### 【numpy版本≥1.16导致训练不成功】请卸载掉numpy，然后用pip install numpy==1.16.4重装numpy
++ 问题：用命令conda install tensorflow-gpu=1.13.1，conda会安装最新版的Numpy≥1.18.2，这会导致命令：python train.py --logtostderr --train_dir=training\ --pipeline_config_path=training\ssd_inception_v2_coco.config 无法成功启动训练
++ 原因：Tensorflow object detection api 不支持numpy 1.18.2
++ 解决：请用命令pip uninstall numpy先卸载掉numpy，然后用pip install numpy==1.16.4重装numpy
+
 **勘误1 Page39**
 + 原文：conda install tensorflow-gpu=1.13
 + 改为：conda install tensorflow-gpu=1.13.1
