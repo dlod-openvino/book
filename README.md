@@ -47,6 +47,11 @@ https://blog.csdn.net/TeFuirnever/article/details/99110367
 
 **注意4 Page32 有读者反馈Anaconda Navigator里面找不到VS Code**
 + 请确保Anaconda Navigator的版本大于1.7，或者卸掉您已经安装的Anaconda，从清华镜像源下载并安装最新的Anaconda
+
+**注意5 有读者在转换OpenVINO IR模型时不成功，错误为：Graph object has no attribute 'node'**
++ 原因 OpenVINO 2019以及之前所有版本，不支持networkx2.4
++ 解决方案，先卸载networkx2.4：pip uninstall networkx; 然后安装networkx 2.0版本：pip install networkx==2.0
++ 参考资料：https://www.jianshu.com/p/2be7b448b788
 ---
 
 由于笔者的水平有限，书中难免会出现错误或者不准确的地方，恳请读者批评指正。读者可以将书中的错误以及遇到的任何问题反馈给我们，我们将尽量在线上为读者提供最满意的解答。
