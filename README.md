@@ -26,6 +26,10 @@ https://software.intel.com/en-us/openvino-toolkit/choose-download?innovator=CONT
 + 原因：Tensorflow object detection api 不支持numpy 1.18.2
 + 解决：请用命令pip uninstall numpy先卸载掉numpy，然后用pip install numpy==1.16.4重装numpy
 
+#### 【运行train.py时发生NotFoundError: NewRandomAccessFile failed to Create/Open】
++ 问题：读者没有按照本书的路径配置训练文件夹，且没有按照3.4.3节重新标注图片，导致标注文件的路径跟实际图片的路径不一致。
++ 解决：参考3.4.4节，打开标注文件.xml，核对路径; 若不一致，请重新标注并保存标注文件; 或者先建立跟本书一样的路径
+
 **勘误1 Page39**
 + 原文：conda install tensorflow-gpu=1.13
 + 改为：conda install tensorflow-gpu=1.13.1
