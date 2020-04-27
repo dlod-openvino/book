@@ -47,6 +47,7 @@ https://blog.csdn.net/TeFuirnever/article/details/99110367
 
 **注意4 Page32 有读者反馈Anaconda Navigator里面找不到VS Code**
 + 请确保Anaconda Navigator的版本大于1.7，或者卸掉您已经安装的Anaconda，从清华镜像源下载并安装最新的Anaconda
++ 当前最新版的Anaconda没有VScode的安装选项了，建议**读者到VSCode官网下载(https://code.visualstudio.com/)，手动安装即可**
 
 **注意5 有读者在转换OpenVINO IR模型时不成功，错误为：Graph object has no attribute 'node'**
 + 原因 OpenVINO 2019以及之前所有版本，不支持networkx2.4
