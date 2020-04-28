@@ -30,6 +30,10 @@ https://software.intel.com/en-us/openvino-toolkit/choose-download?innovator=CONT
 + 问题：读者没有按照本书的路径配置训练文件夹，且没有按照3.4.3节重新标注图片，导致标注文件的路径跟实际图片的路径不一致。
 + 解决：参考3.4.4节，打开标注文件.xml，核对路径; 若不一致，请重新标注并保存标注文件; 或者先建立跟本书一样的路径
 
+#### 【3.8节，运行train.py训练模型时报错：ValueError: Tensor conversion requested dtype string for Tensor with dtype float32: 'Tensor("arg0:0", shape=(), dtype=float32, device=/device:CPU:0)'】
++ 问题：读者没有按照本书3.7.3节配置文件，尤其是train.tfrecord的路径 或 文件名 写错
++ 解决：pipeline.config文件中的train_input_reader的配置参数与文件所在的实际路径一定要一致！
+
 **勘误1 Page39**
 + 原文：conda install tensorflow-gpu=1.13
 + 改为：conda install tensorflow-gpu=1.13.1
