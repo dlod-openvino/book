@@ -7,7 +7,8 @@
 ---
 ## 【注意项】
 
-#### 【OpenVINO版本】请选择2019R3版，跟本书保持一致;在Windows中安装OpenVINO，一定要安装到C盘！！！
+#### 【OpenVINO版本】请选择2019R3版，跟本书保持一致;
+#### 在Windows中安装OpenVINO，一定要安装到C盘！！！
 下载链接：
 https://software.intel.com/en-us/openvino-toolkit/choose-download?innovator=CONT-0017856
 
