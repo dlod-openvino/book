@@ -59,12 +59,12 @@ https://blog.csdn.net/TeFuirnever/article/details/99110367
 + 当前最新版的Anaconda没有VScode的安装选项了，建议**读者到VSCode官网下载(https://code.visualstudio.com/)，手动安装即可**
 
 **注意5 有读者在转换OpenVINO IR模型时不成功，错误为：Graph object has no attribute 'node'**
-+ 原因 OpenVINO 2019以及之前所有版本，不支持networkx2.4
-+ 解决方案，先卸载networkx2.4：pip uninstall networkx; 然后安装networkx 2.0版本：pip install networkx==2.0
++ 原因: OpenVINO 2019以及之前所有版本，不支持networkx2.4
++ 解决方案:先卸载networkx2.4：pip uninstall networkx; 然后安装networkx 2.0版本：pip install networkx==2.0
 + 参考资料：https://www.jianshu.com/p/2be7b448b788
 
 **注意6 demo_squeezenet_download_convert_run.bat 运行不成功**
-+ 原因 squeezenet.1.1.caffemodel模型的服务器有问题，下载不容易成功
++ 原因: squeezenet.1.1.caffemodel模型的服务器有问题，下载不容易成功
 + 解决方案: 1, 连接手机4G热点后再运行；2, 运行demo_security_barrier_camera.bat，该模型下载成功率高，若能正确运行，也说明OpenVINO开发环境安装成功！
 ---
 
