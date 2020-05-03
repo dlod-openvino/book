@@ -63,10 +63,11 @@ https://blog.csdn.net/TeFuirnever/article/details/99110367
 + 解决方案，先卸载networkx2.4：pip uninstall networkx; 然后安装networkx 2.0版本：pip install networkx==2.0
 + 参考资料：https://www.jianshu.com/p/2be7b448b788
 
-**注意6 demo_squeezenet_download_convert_run.bat 运行不成功
+**注意6 demo_squeezenet_download_convert_run.bat 运行不成功++
 + 原因 squeezenet.1.1.caffemodel模型的服务器有问题，下载不容易成功
-+ 解决方案:1, 连接手机4G热点后再运行
-+         2, 运行demo_security_barrier_camera.bat，该模型下载成功率高，若能正确运行，也说明OpenVINO开发环境安装成功！
++ 解决方案:
++ a, 连接手机4G热点后再运行
++ b, 运行demo_security_barrier_camera.bat，该模型下载成功率高，若能正确运行，也说明OpenVINO开发环境安装成功！
 ---
 
 由于笔者的水平有限，书中难免会出现错误或者不准确的地方，恳请读者批评指正。读者可以将书中的错误以及遇到的任何问题反馈给我们，我们将尽量在线上为读者提供最满意的解答。
