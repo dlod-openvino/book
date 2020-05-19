@@ -73,7 +73,8 @@ https://blog.csdn.net/TeFuirnever/article/details/99110367
 + 解决方案：[在Anaconda中安装pip3工具](https://www.jianshu.com/p/a08a70fabb3f)
 
 **注意8 https://tzutalin.github.io/labelImg/ 中无法下载LabelImg Windows安装文件**
-+ 解决方案，从本书提供的360网盘下载，在tf_train\addons\windows_v1.8.0中
++ 解决方案1，从本书提供的360网盘下载，在tf_train\addons\windows_v1.8.0中
++ 解决方案2，[《在Windows中快速安装并使用LabelImg》](https://www.jianshu.com/p/4bdaa90c4561)
 ---
 
 由于笔者的水平有限，书中难免会出现错误或者不准确的地方，恳请读者批评指正。读者可以将书中的错误以及遇到的任何问题反馈给我们，我们将尽量在线上为读者提供最满意的解答。
