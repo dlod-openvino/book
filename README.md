@@ -75,6 +75,18 @@ https://blog.csdn.net/TeFuirnever/article/details/99110367
 **注意8 https://tzutalin.github.io/labelImg/ 中无法下载LabelImg Windows安装文件**
 + 解决方案1，从本书提供的360网盘下载，在tf_train\addons\windows_v1.8.0中
 + 解决方案2，[《在Windows中快速安装并使用LabelImg》](https://www.jianshu.com/p/4bdaa90c4561)
+
+**注意9 启动train.py训练时，报错：Failed to get convolution algorithm**
++ 报错信息：UnknownError:Failed to get convolution algorithm. This is probably because cuDNN failed to initialize
++ 解决方案: 在train.py开头加入语句
+```python
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = '0'   #指定第一块GPU可用
+config = tf.ConfigProto()
+config.gpu_options.per_process_gpu_memory_fraction = 0.8  # 程序最多只能占用指定gpu 80%的显存
+config.gpu_options.allow_growth = True      #程序按需申请内存
+sess = tf.Session(config=config)
+```
 ---
 
 由于笔者的水平有限，书中难免会出现错误或者不准确的地方，恳请读者批评指正。读者可以将书中的错误以及遇到的任何问题反馈给我们，我们将尽量在线上为读者提供最满意的解答。
