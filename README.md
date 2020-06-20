@@ -87,6 +87,10 @@ config.gpu_options.per_process_gpu_memory_fraction = 0.8  # 程序最多只能�
 config.gpu_options.allow_growth = True      #程序按需申请内存
 sess = tf.Session(config=config)
 ```
+
+**注意10 p130页，OpenVINO2020.3版，运行human_pose_estimation_demo.exe报错**
++ 原因：OpenVINO2020.3版自带的OpenCV4.3缺少opencv_videoio_ffmpeg430_64.dll文件
++ 解决方案：《OpenVINO2020.3版读取mp4文件报错》
 ---
 
 由于笔者的水平有限，书中难免会出现错误或者不准确的地方，恳请读者批评指正。读者可以将书中的错误以及遇到的任何问题反馈给我们，我们将尽量在线上为读者提供最满意的解答。
