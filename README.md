@@ -79,11 +79,6 @@ https://blog.csdn.net/TeFuirnever/article/details/99110367
 **注意9 启动train.py训练时，报错：Failed to get convolution algorithm**
 + 报错信息：UnknownError:Failed to get convolution algorithm. This is probably because cuDNN failed to initialize
 + 解决方案: 在train.py开头加入语句
-
-**注意10 P129,4.9.5节，2019 R3版运行human_pose_estimation_demo.exe出错**
-+ 报错信息：Error reading network： cannot parse future versions:10
-+ 解决方案: 请到 https://download.01.org/opencv/2019/open_model_zoo/R3/20190905_163000_models_bin/ 手动下载2019 R3版本对应的模型文件
-
 ```python
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'   #指定第一块GPU可用
@@ -95,7 +90,11 @@ sess = tf.Session(config=config)
 
 **注意10 p130页，OpenVINO2020.3版，运行human_pose_estimation_demo.exe报错**
 + 原因：OpenVINO2020.3版自带的OpenCV4.3缺少opencv_videoio_ffmpeg430_64.dll文件
-+ 解决方案：《OpenVINO2020.3版读取mp4文件报错》
++ 解决方案：[《OpenVINO2020.3版读取mp4文件报错》](https://www.jianshu.com/p/32371886b816)
+
+**注意11 P129,4.9.5节，2019 R3版运行human_pose_estimation_demo.exe出错**
++ 报错信息：Error reading network： cannot parse future versions:10
++ 解决方案: 请到 https://download.01.org/opencv/2019/open_model_zoo/R3/20190905_163000_models_bin/ 手动下载2019 R3版本对应的模型文件
 ---
 
 由于笔者的水平有限，书中难免会出现错误或者不准确的地方，恳请读者批评指正。读者可以将书中的错误以及遇到的任何问题反馈给我们，我们将尽量在线上为读者提供最满意的解答。
