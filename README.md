@@ -79,6 +79,11 @@ https://blog.csdn.net/TeFuirnever/article/details/99110367
 **注意9 启动train.py训练时，报错：Failed to get convolution algorithm**
 + 报错信息：UnknownError:Failed to get convolution algorithm. This is probably because cuDNN failed to initialize
 + 解决方案: 在train.py开头加入语句
+
+**注意10 P129,4.9.5节，2019 R3版运行human_pose_estimation_demo.exe出错**
++ 报错信息：Error reading network： cannot parse future versions:10
++ 解决方案: 请到 https://download.01.org/opencv/2019/open_model_zoo/R3/20190905_163000_models_bin/ 手动下载2019 R3版本对应的模型文件
+
 ```python
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'   #指定第一块GPU可用
