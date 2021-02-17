@@ -3,11 +3,12 @@
 
 ## 【随书资料下载链接】
 [360网盘](https://yunpan.360.cn/surl_yqMKweHiZRL) （提取码：af62）
-[百度网盘](https://pan.baidu.com/s/1OMXOlN_Cr4aITG9LfhTWNQ) （提取码：ftco）
+[百度网盘](链接: https://pan.baidu.com/s/1klGCW0ckE2BQvY4cRscRYA) （提取码: h9m3)  
+--来自百度网盘超级会员v2的分享) （提取码：ftco）
 ---
 ## 【注意项】
 
-#### 【OpenVINO版本】请选择2019R3版，跟本书保持一致;
+#### 【OpenVINO版本】由于OpenVINO版本不断迭代，请读者选择跟书中的版本保持一致;
 #### 【安装到C盘！！】在Windows中安装OpenVINO，一定要安装到C盘！！！
 下载链接：
 https://software.intel.com/en-us/openvino-toolkit/choose-download?innovator=CONT-0017856
