@@ -3,7 +3,7 @@
 
 ## 【随书资料下载链接】
 [360网盘](https://yunpan.360.cn/surl_yqMKweHiZRL) （提取码：af62）
-[百度网盘](链接: https://pan.baidu.com/s/1klGCW0ckE2BQvY4cRscRYA) （提取码: h9m3)  
+[百度网盘](https://pan.baidu.com/s/1klGCW0ckE2BQvY4cRscRYA) （提取码: h9m3)  
 --来自百度网盘超级会员v2的分享) （提取码：ftco）
 ---
 ## 【注意项】
